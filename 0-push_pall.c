@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <stdlib.h>
 
 /**
  * push_pall - A function that adds node to the stack
@@ -7,7 +8,7 @@
  * Return: void
 */
 
-void push_pall(stack_s **head, unsigned int cnt)
+void push_pall(stack_t **head, unsigned int cnt)
 {
 	int push, pall, sl;
 
